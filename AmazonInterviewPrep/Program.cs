@@ -1,6 +1,7 @@
 ﻿using AmazonInterviewPrep.Chain_of_Responsibility;
 using AmazonInterviewPrep.CommandPattern;
 using AmazonInterviewPrep.ObserverPattern;
+using AmazonInterviewPrep.StrategyPattern;
 using AmazonInterviewPrep.TicTacToe;
 
 namespace AmazonInterviewPrep;
@@ -8,6 +9,27 @@ namespace AmazonInterviewPrep;
 class Program
 {
     static void Main(string[] args)
+    {
+        StrategyPattern();
+    }
+
+    private static void StrategyPattern()
+    {
+        IRouteStrategy car = new CarRoute();
+        IRouteStrategy bike = new BikeRoute();
+        IRouteStrategy walk = new WalkRoute();
+
+        Navigator navigator = new(walk);
+        navigator.DisplayRoute(5, 5);
+
+        navigator.SetStrategy(bike);
+        navigator.DisplayRoute(7, 9);
+
+        navigator.SetStrategy(car);
+        navigator.DisplayRoute(9, 11);
+    }
+
+    private static void CommandPattern()
     {
         GUI_Interface GUI_Interface = new();
         GUI_Interface.InitializeGUI();

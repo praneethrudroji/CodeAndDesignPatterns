@@ -12,3 +12,4 @@
 /Users/praneethrudroji/Desktop/Code/AmazonInterviewPrep/obj/Debug/net10.0/AmazonInterviewPrep.pdb
 /Users/praneethrudroji/Desktop/Code/AmazonInterviewPrep/obj/Debug/net10.0/AmazonInterviewPrep.genruntimeconfig.cache
 /Users/praneethrudroji/Desktop/Code/AmazonInterviewPrep/obj/Debug/net10.0/ref/AmazonInterviewPrep.dll
+/Users/praneethrudroji/Desktop/Code/AmazonInterviewPrep/obj/Debug/net10.0/AmazonInterviewPrep.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmazonInterviewPrep")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16bfd0859d221537364742f1395ce96fd0d16d9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AmazonInterviewPrep")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmazonInterviewPrep")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
