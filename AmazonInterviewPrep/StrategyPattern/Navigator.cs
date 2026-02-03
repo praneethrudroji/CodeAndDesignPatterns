@@ -12,7 +12,7 @@ public class Navigator : INavigator
         this.routeStrategy = routeStrategy;
     }
     public void DisplayRoute(decimal longitude, decimal latitude)
-    {
+    { 
         var coordinates = routeStrategy.buildRoute(longitude, latitude);
         System.Console.WriteLine($"{routeStrategy.Name}: Route co-ordinates {string.Join("->", coordinates)}");
     }
