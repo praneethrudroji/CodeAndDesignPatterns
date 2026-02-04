@@ -1,0 +1,14 @@
+/Users/praneethrudroji/Desktop/Code/Programming/bin/Debug/net10.0/Programming
+/Users/praneethrudroji/Desktop/Code/Programming/bin/Debug/net10.0/Programming.deps.json
+/Users/praneethrudroji/Desktop/Code/Programming/bin/Debug/net10.0/Programming.runtimeconfig.json
+/Users/praneethrudroji/Desktop/Code/Programming/bin/Debug/net10.0/Programming.dll
+/Users/praneethrudroji/Desktop/Code/Programming/bin/Debug/net10.0/Programming.pdb
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.GeneratedMSBuildEditorConfig.editorconfig
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.AssemblyInfoInputs.cache
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.AssemblyInfo.cs
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.csproj.CoreCompileInputs.cache
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.dll
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/refint/Programming.dll
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.pdb
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/Programming.genruntimeconfig.cache
+/Users/praneethrudroji/Desktop/Code/Programming/obj/Debug/net10.0/ref/Programming.dll
