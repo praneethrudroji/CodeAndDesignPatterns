@@ -1,5 +1,6 @@
 ﻿using AmazonInterviewPrep.Chain_of_Responsibility;
 using AmazonInterviewPrep.CommandPattern;
+using AmazonInterviewPrep.FactoryPattern;
 using AmazonInterviewPrep.ObserverPattern;
 using AmazonInterviewPrep.StrategyPattern;
 using AmazonInterviewPrep.TicTacToe;
@@ -10,7 +11,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        StrategyPattern();
+        SimpleFactory();
+    }
+
+    private static void SimpleFactory()
+    {
+        SimpleFactory factory = new();
+        Console.WriteLine(factory.CreateProduct("Car"));
+        Console.WriteLine(factory.CreateProduct("Bike"));
+
+        //or
+        var carFactory = factory.FactoryMethod("Car");
+        var bikeFactory = factory.FactoryMethod("Bike");
+
+        Console.WriteLine(carFactory.Create());
+        Console.WriteLine(bikeFactory.Create());
+    }
+
+    private static void FactoryPattern()
+    {
+        Factory carCreator = new CarFactory();
+        Factory bikeCreator = new BikeFactory();
+
+        Console.WriteLine(carCreator.CreateProduct());
+        Console.WriteLine(bikeCreator.CreateProduct());
     }
 
     private static void StrategyPattern()
