@@ -7,9 +7,9 @@ public class HandlerClient
     public void Handle()
     {
         IHandler authHandler = new AuthHandler();
-        IHandler santizeHandler = new SanitizeHandler();
+        IHandler sanitizeHandler = new SanitizeHandler();
 
-        authHandler.SetNext(santizeHandler);
+        authHandler.SetNext(sanitizeHandler);
         authHandler.Handle("My request");
     }
 }
