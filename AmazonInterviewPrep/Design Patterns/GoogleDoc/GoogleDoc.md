@@ -1,0 +1,2 @@
+- As a end user I need the ability to add text, images to document
+- Document should be saved to a persisent db

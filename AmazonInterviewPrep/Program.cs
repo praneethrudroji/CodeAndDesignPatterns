@@ -1,5 +1,6 @@
 ﻿using AmazonInterviewPrep.Chain_of_Responsibility;
 using AmazonInterviewPrep.CommandPattern;
+using AmazonInterviewPrep.Design_Patterns.GoogleDoc;
 using AmazonInterviewPrep.FactoryPattern;
 using AmazonInterviewPrep.ObserverPattern;
 using AmazonInterviewPrep.StrategyPattern;
@@ -11,7 +12,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        SimpleFactory();
+        Client.CreateDocument();
     }
 
     private static void SimpleFactory()

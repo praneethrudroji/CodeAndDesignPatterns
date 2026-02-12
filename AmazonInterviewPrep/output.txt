@@ -1,0 +1,4 @@
+Hello, How are you?
+		Can you see this image? It is hilarious
+
+Image: [c://test//path]
